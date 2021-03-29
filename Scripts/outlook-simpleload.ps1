@@ -1,3 +1,14 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
+# outlook-simpleload.ps1
+#
+# Script to generate minimal load using Outlook client to allow evaluation of the Microsoft 365 informed network routing feature.
+#
+# This script assumes that the Outlook client is running and configured to connect to a Microsoft 365 (Exchange Online) account.
+# Usage of an isolated test account is recommended, as the script does delete messages.
+#
+
 $olFolderInbox = 6
 $olMailItem = 0
 
